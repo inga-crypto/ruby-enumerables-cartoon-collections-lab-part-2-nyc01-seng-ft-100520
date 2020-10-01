@@ -25,8 +25,9 @@ def find_valid_calls(planeteer_calls)
   
   planeteer_calls.select do |word|
     if valid_calls.include?(word)
-      word
+     
     end
+     word
   end
   
   end
