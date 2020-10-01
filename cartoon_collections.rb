@@ -25,7 +25,8 @@ def find_valid_calls(planeteer_calls)
   
   planeteer_calls.each do |word|
     if valid_calls.include?(word)
+      print #{word}
     end
   end
-  ans
+  
   end
