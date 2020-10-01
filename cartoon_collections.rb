@@ -27,7 +27,5 @@ def find_valid_calls(planeteer_calls)
     if valid_calls.include?(word)
      
     end
-     word
-  end
-  
+   end
   end
